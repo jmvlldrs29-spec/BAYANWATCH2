@@ -1,0 +1,7 @@
+- [x] Import database functions (verify_password, create_user) from db_config
+- [x] Update /api/register to use create_user instead of mocking
+- [x] Update /api/login to use verify_password instead of mocking
+- [x] Test the authentication fixes
+- [x] Fix complaint isolation by access code
+- [x] Assign access codes to existing users
+- [x] Test database filtering (BARANGAY456: 2 complaints, ADMIN123: 0 complaints)
